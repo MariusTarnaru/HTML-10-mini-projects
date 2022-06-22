@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 5rem;
+    background-color: rgb(221, 217, 241);
+}
+
+.textjars {
+    display: flex;
+    justify-content: center;
+    color: rgb(7, 90, 158);
+    padding: 1rem;
+
+} 
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    font-size: 4rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+li {
+    list-style-type: none;
+    font-size: 2rem;
+}
+.amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.value {
+    font-size: 1.5rem;
+    background-color: rgb(221, 217, 241);
+    border: 1px solid rgb(221, 217, 241);
+    border-radius: 10px;
+    border-color: rgb(197, 201, 233);
+    box-shadow: 3px 4px rgb(206, 200, 230);  
+    color: rgb(39, 112, 172);  
+    text-align: center;
+    cursor: pointer;
+    outline: none;  /*remove black border when click in input box */
+}
+#valueInput {
+   color: rgb(15, 172, 119);
+   display: flex;
+   justify-content: center;
+   font-size: 1.5em;
+}
+#total-economy {
+    color: rgb(46, 4, 233);
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: inherit;
+    align-items: center;
+}

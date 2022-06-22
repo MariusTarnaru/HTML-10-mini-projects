@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Rubik Moonrocks', cursive;
+    src: url("fonts/RubikMoonrocks-Regular.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/NYsnow.gif");
+    background-size: cover;
+    font-family: 'Rubik Moonrocks', cursive;
+    margin: 0%;
+    background-color: rgb(170, 241, 218);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    /*left: 50%;  */
+    color: #66667c;
+    font-family: inherit;
+    text-shadow: 0 0 3px black;
+}
+.title::after {
+    content: "_dupa titlu";
+}
+
+.title::before {
+    content: "Inainte de titlu_";
+}
+
+#description {
+    position: relative;
+    left: 35%;
+    color:  #66667c;
+    text-shadow: 0 0 2px black;
+}
+
+.span-underline {
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contained {
+    width: 20%;
+    height: 50px;
+    border: 2px solid blueviolet;
+}
+
+button {
+    width: 100%;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #c9c2c2;
+    border-radius: 14px;
+    color: #f34f4f;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background-color: rgb(174, 120, 224);
+}
+
+button:nth-child(3) {
+    background-color: aqua;
+}
+
+#myinput::placeholder {
+    color: rgb(240, 174, 174);
+}
+
+#myinput {
+    border: 2px solid #dd2b93;
+    border-radius: 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    color: cornflowerblue;
+}
+
+#list-item {
+    display: block;
+    justify-content: center;
+    font-family: inherit;
+}
+
+.list-group-item {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 1.6rem;
+    color: cornflowerblue;
+    text-shadow: 0 0 5px black;
+}
