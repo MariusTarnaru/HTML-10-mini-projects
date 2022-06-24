@@ -16,7 +16,7 @@ body {
 
 .textjars {
     display: flex;
-    justify-content: center;
+    justify-content: last baseline;
     color: rgb(7, 90, 158);
     padding: 1rem;
 
@@ -64,4 +64,7 @@ li {
     flex-direction: column-reverse;
     font-family: inherit;
     align-items: center;
+}
+.content {
+    
 }
